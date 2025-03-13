@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Hand } from "../../components/Hand";
-import { Table } from "../../components/Table";
-import { ScoreBoard } from "../../components/ScoreBoard";
+import Table from "../../components/Table";
+import ScoreBoard from "../../components/Scoreboard";
 
 export default function Game() {
   const router = useRouter();
